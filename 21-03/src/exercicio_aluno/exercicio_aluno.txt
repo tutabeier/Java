@@ -1,0 +1,22 @@
+Implemente uma classe Aluno conforme descrito a seguir:
+
+Se desejar, implemente construtores.
+
+Cada aluno possui um nome, idade, sexo, nota1 e nota2.
+Fazer a consistência dos atributos conforme descrito abaixo:
+
+Sexo: aceitar somente os caracteres M ou F.
+Idade: aceitar somente números positivos.
+Nome: aceitar somente textos com pelo menos 3 caracteres.
+Notas: aceitar somente valores entre 0 e 10.
+
+Implementar um método chamado media() que retorna a média das notas do aluno.
+
+Implementar um método chamado chamado situacao() que retorna um texto informando a situação do aluno conforme sua média:
+
+Média menor que 3: retornar o texto "Reprovado".
+Média a partir de 3 e menor que 7: "Recuperação".
+Média a partir de 7 e menor que 9: "Aprovado Bom".
+Média a partir de 9: "Aprovado Otimo".
+
+Implementar o método toString().
